@@ -9,8 +9,8 @@ router.get('/:id', controller.get);
 router.post('/nota', controller.getNota);
 router.post('/media', controller.getMedia);
 router.post('/ranking', controller.getRanking);
-
 router.post('/', controller.post);
+
 router.put('/', controller.update);
 router.delete('/', controller.delete);
 
